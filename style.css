@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #FF1493;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 300px;
+  margin: auto;
+  background-image: url('./img/Imagem do WhatsApp de 2024-05-29 à(s) 10.00.40_364115ea.jpg');
+  background-size: cover;  
+  background-position: center;  
+  background-repeat: no-repeat; 
+  color: #f5f5f5;
+}
+
+button {
+  background-color: #ff5a5f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #ff7a7d;
+}
+
+.calendar {
+  margin-top: 20px;
+  max-width: 350px;
+  background: #DB7093;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.nav {
+  cursor: pointer;
+}
+
+.day-names, .days {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.day-names div, .days div {
+  width: calc(100% / 7);
+  text-align: center;
+  padding: 10px 0;
+}
+
+.days div {
+  border: 1px solid #ddd;
+  cursor: pointer;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.days div:hover {
+  background-color: #f0f0f0;
+}
+
+.days div.selected {
+  background-color: #ff5a5f;
+  color: white;
+}
+
+.notes {
+  margin-top: 10px;
+  font-size: 12px !important;
+  color: #666;
+  border: none !important;
+}
+
+.day-with-note {
+  background-color: #ffcccb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+.notes {
+  font-size: 14px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
